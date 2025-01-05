@@ -10,4 +10,4 @@ jobs:
     steps:
         - uses: sigstore/gh-action-sigstore-python@v3.0.0
           with:
-            inputs: ./to_be_signed.txt README.md
+            inputs: "./to_be_signed.txt"
