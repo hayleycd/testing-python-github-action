@@ -8,6 +8,7 @@ jobs:
     permissions:
       id-token: write
     steps:
+        - uses: actions/checkout@v3
         - uses: sigstore/gh-action-sigstore-python@v3.0.0
           with:
             inputs: "README.md"
