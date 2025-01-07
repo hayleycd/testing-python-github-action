@@ -13,5 +13,5 @@ jobs:
           with:
             inputs: README.md
             verify: true
-            verify-cert-identity: john.hancock@example.com
+            verify-cert-identity: https://github.com/hayleycd/testing-python-github-action/.github/workflows/signing.yaml@refs/heads/main
             verify-oidc-issuer: https://token.actions.githubusercontent.com
