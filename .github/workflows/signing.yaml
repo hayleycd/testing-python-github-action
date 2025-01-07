@@ -14,4 +14,4 @@ jobs:
             inputs: README.md
             verify: true
             verify-cert-identity: john.hancock@example.com
-            verify-oidc-issuer: https://oauth2.sigstage.dev/auth
+            verify-oidc-issuer: https://token.actions.githubusercontent.com
